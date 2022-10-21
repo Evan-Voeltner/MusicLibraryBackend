@@ -12,7 +12,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/songs/",
+					"raw": "http://127.0.0.1:8000/api/music/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -23,7 +23,7 @@
 					"port": "8000",
 					"path": [
 						"api",
-						"songs",
+						"music",
 						""
 					]
 				}
@@ -45,7 +45,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/songs/",
+					"raw": "http://127.0.0.1:8000/api/music/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -56,7 +56,7 @@
 					"port": "8000",
 					"path": [
 						"api",
-						"songs",
+						"music",
 						""
 					]
 				}
@@ -69,7 +69,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/songs/3/",
+					"raw": "http://127.0.0.1:8000/api/music/1/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -80,8 +80,8 @@
 					"port": "8000",
 					"path": [
 						"api",
-						"songs",
-						"3",
+						"music",
+						"1",
 						""
 					]
 				}
@@ -103,7 +103,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/songs/1/",
+					"raw": "http://127.0.0.1:8000/api/music/1/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -114,7 +114,7 @@
 					"port": "8000",
 					"path": [
 						"api",
-						"songs",
+						"music",
 						"1",
 						""
 					]
@@ -126,7 +126,24 @@
 			"name": "Delete_Song",
 			"request": {
 				"method": "DELETE",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/music/4/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"music",
+						"4",
+						""
+					]
+				}
 			},
 			"response": []
 		}
